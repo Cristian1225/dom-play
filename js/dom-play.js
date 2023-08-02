@@ -35,9 +35,9 @@ function highlightActor(actor){
     //alert("Hi, I'm " + actor);
     for(const mySpan of spans){
         if(actor == mySpan.dataset.actor){//current actor
-            mySpan.backgroundColor='orange';
+            mySpan.style.backgroundColor='orange';
         }else{//other actor
-            mySpan.backgroundColor='white';
+            mySpan.style.backgroundColor='white';
         } 
     }
 }
